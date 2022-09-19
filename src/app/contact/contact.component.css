@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+label,
+input {
+  padding: 0.25em 1em;
+}
+label {
+  letter-spacing: 2px;
+}
+button {
+  margin-top: 1em;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background-color: #ccd5ae;
+  border: none;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
+.courses > img {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.courses > p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}

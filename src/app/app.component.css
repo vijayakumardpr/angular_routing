@@ -1,0 +1,41 @@
+nav {
+  background-color: #ccd5ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+ul li {
+  padding: 0.75em 1.5em;
+  letter-spacing: 1px;
+}
+
+ul li:hover {
+  background-color: #e9edc9;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: minmax(50px, 100px) auto minmax(50px, 75px);
+}
+section {
+  padding: 2em;
+  background-color: #e9edc9;
+}
+footer {
+  background-color: #ccd5ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
